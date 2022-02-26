@@ -1,0 +1,173 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/* introduction page */
+
+.top {
+    height: 100vh;
+    width: 100%;
+    background-image: url(UrbanFashion/UrbanFashion/background.png);
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    /* padding-left: 5%;
+    padding-right: 5%;
+    box-sizing: border-box; */
+}
+.navbar-brand{
+    font-size:2.5rem;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing:1.5px;
+    margin-left: 100px;
+    animation: movedown 1s linear 1;
+    visibility:hidden;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes movedown {
+    from {
+        transform : translateY(-100px);
+        visibility: visible;
+    }
+    to {
+        transform: translateY(0);
+        visibility: visible;
+    }
+
+}
+.nav-link{
+    font-size:1.5rem;
+    margin: 5px;
+    font-family: 'Bebas Neue', cursive;
+    animation: movedown 1s linear 1;
+    visibility:hidden;
+    animation-fill-mode: forwards;
+}
+.cart{
+    width: 45px;
+     padding-right: 10px; 
+     margin-left:5px; 
+     animation: movedown 1s linear 1;
+     visibility:hidden;
+     animation-fill-mode: forwards;
+}
+.content h1{
+    font-size:50px;
+    font-weight: strong;
+    margin-top:15px;
+    margin-bottom:15px;
+    padding-left: 25px;
+    color: #232d60;
+    font-family: 'Philosopher', sans-serif;
+    animation: moveright 1s linear 1;
+    visibility:hidden;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+.content p{
+    font-size:20px;
+    font-weight: strong;
+    padding-left: 55px;
+    color: #212b85;
+    font-family: 'Philosopher', sans-serif;
+    animation: moveright 1s linear 1;
+    visibility:hidden;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+.content .btn{
+    background: linear-gradient(45deg,#87adfe,#ff77cd);
+    border-radius: 6px;
+    padding: 5px 20px;
+    margin-left: 50px;
+    border: none;
+    box-sizing: border-box;
+    color: #fff;
+    animation: moveright 1s linear 1;
+    visibility:hidden;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+    /* box-shadow: 3px 5px 20px black; */
+}
+
+@keyframes moveright {
+    from {
+        transform : translateX(-100px);
+        visibility: visible;
+    }
+    to {
+        transform: translateX(0);
+        visibility: visible;
+    }
+}
+
+.author{
+    padding-left:450px;
+}
+.content{
+    margin-top:10%;
+    margin-left:5%;
+}
+
+.feature-img{
+    height: 90%;
+    position: absolute;
+    right: 160px;
+    bottom: 0;
+    animation: zoomin 1s linear 1;
+    visibility:hidden;
+    animation-fill-mode: forwards;
+    animation-delay: 2s;
+}
+@keyframes zoomin {
+    from {
+        transform : scale(0.5);
+        visibility: visible;
+    }
+    to {
+        transform: scale(1);
+        visibility: visible;
+    }
+}
+.social-links{
+    transform: rotate(-90deg);
+    position: absolute;
+    left: -80px;
+    bottom:150px;
+}
+.social-links a{
+    text-decoration: none;
+    color: #6a7199;
+    padding-right:20px;
+    font-size:15px
+}
+
+/* fashion page */
+
+
+.slide-show h2{
+    font-size:2.5rem;
+    text-align: center;
+    margin-top:2%;
+    font-family: 'Bebas Neue', cursive;
+    letter-spacing: 1.5px;
+}
+.carousel-item{
+    height:32rem;
+    background-color:#777;
+    color : white;
+    position : relative;
+    
+}
+
+.container{
+    position : absolute;
+    bottom:0;
+    left:0;
+    right:0;
+    padding-bottom:50px;
+}
+
+
